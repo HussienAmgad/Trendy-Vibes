@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "flowbite";
+.Toastify__toast-container {
+    position: fixed !important;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
